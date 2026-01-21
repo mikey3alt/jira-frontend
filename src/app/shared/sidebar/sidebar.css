@@ -1,0 +1,22 @@
+.sidebar {
+  width: 240px;
+  height: calc(100vh - 56px); /* Full height minus header height */
+  background-color: #f4f5f7;
+  border-right: 1px solid #dfe1e6;
+  transition: transform 0.3s ease, width 0.3s ease;
+  overflow: hidden;
+}
+
+.sidebar.closed {
+  width: 0;
+  transform: translateX(-100%);
+}
+
+.sidebar-content {
+  width: 240px; /* Keeps content width stable during transition */
+  padding: 20px 10px;
+}
+
+ul { list-style: none; padding: 0; }
+li { padding: 10px; cursor: pointer; border-radius: 4px; }
+li:hover { background: #ebecf0; }
