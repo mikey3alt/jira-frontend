@@ -8,11 +8,11 @@ import { SidebarService } from '../../../core/services/sidebar/sidebar';
   styleUrl: './header.css',
 })
 export class Header {
-    searchQuery: string = '';
+  searchQuery: string = '';
 
-    constructor(private sidebarService: SidebarService) {}
+  constructor(private sidebarService: SidebarService) {}
 
-    toggleSidebar() {
-  this.sidebarService.toggle();
-}
+  toggleSidebar() {
+    this.sidebarService.toggle();
+  }
 }

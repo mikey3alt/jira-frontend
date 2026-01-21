@@ -6,8 +6,10 @@
   height: 56px;
   padding: 0 16px;
   background-color: #ffffff;
-  border-bottom: 1px solid #DFE1E6;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, "Fira Sans", "Droid Sans", sans-serif;
+  border-bottom: 1px solid #dfe1e6;
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 'Fira Sans',
+    'Droid Sans', sans-serif;
 }
 
 /* Left Section: Nav & Logo */
@@ -21,7 +23,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  color: #42526E;
+  color: #42526e;
   font-weight: 600;
   font-size: 18px;
 }
@@ -41,7 +43,7 @@
 .search-input {
   width: 100%;
   padding: 8px 12px 8px 36px;
-  border: 2px solid #DFE1E6;
+  border: 2px solid #dfe1e6;
   border-radius: 4px;
   font-size: 14px;
   transition: all 0.2s ease-in-out;
@@ -49,7 +51,7 @@
 
 .search-input:focus {
   outline: none;
-  border-color: #4C9AFF;
+  border-color: #4c9aff;
   background-color: #ffffff;
 }
 
@@ -62,7 +64,7 @@
 
 /* Action Buttons */
 .btn-create {
-  background-color: #0052CC;
+  background-color: #0052cc;
   color: white;
   border: none;
   padding: 6px 12px;
@@ -72,13 +74,13 @@
 }
 
 .btn-create:hover {
-  background-color: #0747A6;
+  background-color: #0747a6;
 }
 
 .btn-plans {
   background: transparent;
-  color: #6554C0;
-  border: 1px solid #6554C0;
+  color: #6554c0;
+  border: 1px solid #6554c0;
   padding: 6px 12px;
   border-radius: 3px;
   font-weight: 500;
@@ -89,7 +91,7 @@
 }
 
 .btn-plans:hover {
-  background-color: #EAE6FF;
+  background-color: #eae6ff;
 }
 
 /* Utility Icons & Avatar */
@@ -97,7 +99,7 @@
   display: flex;
   gap: 4px;
   margin-left: 8px;
-  color: #6B778C;
+  color: #6b778c;
 }
 
 .avatar {

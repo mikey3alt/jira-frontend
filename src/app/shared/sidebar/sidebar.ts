@@ -10,9 +10,9 @@ import { AsyncPipe } from '@angular/common';
   styleUrl: './sidebar.css',
 })
 export class Sidebar {
-    isSidebarOpen$: Observable<boolean>;
+  isSidebarOpen$: Observable<boolean>;
 
-    constructor(private sidebarService: SidebarService) {
+  constructor(private sidebarService: SidebarService) {
     this.isSidebarOpen$ = this.sidebarService.sidebarState$;
   }
 }
